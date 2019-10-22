@@ -1,0 +1,11 @@
+ 
+  {
+    "PORT": 2500,
+    "HOST":"localhost",
+    "databaseName":"NextGen",
+    "emails": 
+        {
+            "apiKey": "API key from mailgun",
+            "domain": "Domain Name from mailgun"
+        }
+}

@@ -1,0 +1,24 @@
+ 
+  {
+    "name": "default",
+    "logs": 
+    {
+        "success":"./logs/success",
+        "error":"./logs/failure"
+    },
+    "server": "ABCD",
+    "api": 
+        {
+            "prefix":"/api"
+        },
+    "documentation": 
+    {
+        "hidden": false
+    },
+    "tags":{
+        "name":"ROR_Operation",
+        "description":"CRUD operation of ROR"
+    }
+
+}
+

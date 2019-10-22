@@ -1,0 +1,46 @@
+{
+  "name": "bp-server",
+  "version": "1.0.0",
+  "description": "it will serve all data to React Front and connect to Mysql DB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.ibm.com/sellar31/NextGen.git"
+  },
+  "author": "[Anil Verma <anil.verma@in.ibm.com>, Arpit Purwar <apurwa19@in.ibm.com>]",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "exceljs": "^3.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.1.0",
+    "express-secure-only": "^0.2.1",
+    "express-session": "^1.16.2",
+    "express-validator": "^6.2.0",
+    "extend": "^3.0.2",
+    "fs": "0.0.1-security",
+    "helmet": "^3.20.1",
+    "jsonwebtoken": "^7.1.9",
+    "lodash": "^4.17.15",
+    "method-override": "^3.0.0",
+    "moment": "^2.24.0",
+    "msnodesqlv8": "^0.8.3",
+    "mssql": "^5.1.0",
+    "swagger-jsdoc": "^3.4.0",
+    "temp-write": "^4.0.0",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^3.10.0"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
